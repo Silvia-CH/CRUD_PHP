@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 95vh;
+  flex-wrap: wrap;
+  background-color: rgb(236, 244, 236);
+}
+
+#divCrear{
+  display: flex;
+  align-content: center;
+  width: 100vw;
+}
+
+#crear{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 0.5vw;
+  margin: 1vh;
+}
+
+table{
+  margin: 2vh;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 110);
+  padding: 1vh;
+}
+
+th {
+  background-color: slateblue;
+  color: aliceblue;
+
+  padding: 1vh;
+}
+
+tr:nth-child(odd) {
+  background-color: lightsteelblue;
+}
+
+tr:nth-child(even) {
+  background-color: antiquewhite;
+}
